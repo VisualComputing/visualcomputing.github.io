@@ -1,0 +1,119 @@
+<!--Author: Edwin Alexander Bohorquez-->
+
+<head>
+  <script type="text/javascript" src="/js/pipelineStage.js"></script>
+  <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+</head>
+
+<body>
+
+<p>Haciendo click podrá conocer cada etapa de la tubería de renderizado:</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openStage(event, 'vertex_specification')" id="defaultOpen">Vertex Specification</button>
+  <button class="tablinks" onclick="openStage(event, 'vertex_shader')">Vertex Shader</button>
+  <button class="tablinks" onclick="openStage(event, 'tessellation')">Tessellation</button>
+  <button class="tablinks" onclick="openStage(event, 'geometry_shader')">Geometry Shader</button>
+  <button class="tablinks" onclick="openStage(event, 'vertex_post_processing')">Vertex Post-Processing</button>
+  <button class="tablinks" onclick="openStage(event, 'primitive_assembly')">Primitive Assembly</button>
+  <button class="tablinks" onclick="openStage(event, 'rasterization')">Rasterization</button>
+  <button class="tablinks" onclick="openStage(event, 'fragment_shader')">Fragment Shader</button>
+  <button class="tablinks" onclick="openStage(event, 'per_sample_operations')">Per-Sample Operations</button>
+</div>
+
+<div id="vertex_specification" class="tabcontent">
+  <h3 class="title">Vertex Specification</h3>
+  <img src="../assets/images/vertex_specification.png">
+  <p class="text">Es el proceso de configurar un objeto a traves de vertices, los cuales definen los limites de una primitiva. Las primitivas son formas 	básicas de dibujo, como triángulos, líneas y puntos.
+  <br/>En esta etapa se manejan objetos como:
+  </p>
+  <ul>
+    <li class="text">Vertex Array Objects</li>
+    <li class="text">Vertex Buffer Objects</li>
+  </ul>  
+</div>
+
+<div id="vertex_shader" class="tabcontent">
+  <h3 class="title">Vertex Shader</h3>
+  <img src="../assets/images/vertex_shader.png">
+  <p class="text">En esta etapa se realiza un procesamiento basico de los vertices de forma individual.Este procesamiento es hecho por los vertex shader    que reciben como entrada atributos de la representación de vértices y luego convierten cada vértice entrante en un único vértice saliente.
+<br/>En esta etapa:
+  </p>
+  <ul>
+    <li class="text">Debe haber un mapeo 1:1 desde los vértices de entrada hasta los vértices de salida</li>
+    <li class="text">Los vertex shader se pueden usar para hacer una iluminación por vértice</li>
+    <li class="text"><b>Los vertex shader no son opcionales.</b></li>
+  </ul>  
+</div>
+
+<div id="tessellation" class="tabcontent">
+  <h3 class="title">Tessellation</h3>
+  <img src="../assets/images/tessellation.png">
+  <p class="text">Hace referencia a una regularidad o patrón de figuras que recubren completamente una superficie plana que cumple con dos requisitos:
+  </p>
+  <ul>
+    <li class="text">Que no queden espacios</li>
+    <li class="text">Que no se superpongan las figuras</li>
+  </ul>  
+<p class="text"><b>El teselado es un proceso opcional.</b></p>
+</div>
+
+<div id="geometry_shader" class="tabcontent">
+  <h3 class="title">Geometry Shader</h3>
+  <img src="../assets/images/geometry_shader.png">
+  <p class="text">Los shaders de geometría son programas definidos por el usuario que procesan cada primitiva entrante, devolviendo cero o más primitivas de salida.<br/><b>Este proceso es opcional.</b></p>
+</div>
+
+<div id="vertex_post_processing" class="tabcontent">
+  <h3 class="title">Vertex Post-Processing</h3>
+  <img src="../assets/images/vertex_post_processing.png">
+  <p class="text">Después del procesamiento de vértices basado en sombreadores, los vértices se someten a varios pasos de procesamiento de funciones fijas.</p>
+<ul>
+  <li class="text">Transform Feedback</li>
+    <ld class="text">Las salidas de geometry shader se escriben en una serie de Buffer Objects.</ld>
+  <li class="text">Clipping</li>
+    <ld class="text">Las primitivas generadas por las etapas anteriores se recopilan y luego se recortan al volumen de la vista.</ld>
+</ul>     
+</div>
+
+<div id="primitive_assembly" class="tabcontent">
+  <h3 class="title">Primitive Assembly</h3>
+  <img src="../assets/images/primitive_assembly.png">
+  <p class="text">Es el proceso de recopilar resultados de datos de vértices de las etapas anteriores y componerlos en una secuencia de primitivas. El tipo de primitiva que el usuario representa determina cómo funciona este proceso.<br/>
+El resultado de este proceso es una secuencia ordenada de primitivas simples (líneas, puntos o triángulos).</p>
+</div>
+
+<div id="rasterization" class="tabcontent">
+  <h3 class="title">Rasterization</h3>
+  <img src="../assets/images/rasterization.png">
+  <p class="text">Es el proceso por el cual una imagen descrita en un formato gráfico vectorial se convierte en un conjunto de píxeles o puntos para ser desplegados en un medio de salida digital, como una pantalla de computadora.</p>
+</div>
+
+<div id="fragment_shader" class="tabcontent">
+  <h3 class="title">Fragment Shader</h3>
+  <img src="../assets/images/fragment_shader.png">
+  <p class="text">Es la etapa de Shader que procesará un fragmento generado por la Rasterización, en un conjunto de colores y un solo valor de profundidad.<br/>Los fragment shader toman un único fragmento como entrada y producen un solo fragmento como resultado.
+</p>
+</div>
+
+<div id="per_sample_operations" class="tabcontent">
+  <h3 class="title">Per-Sample Operations</h3>
+  <img src="../assets/images/per_sample_operations.png">
+  <p class="text">La salida de datos de fragmento se pasa a través de una secuencia de pasos:<br/><b>Paso 1: </b>pruebas de sacrificio:</p>
+  <ul>
+    <li class="text">Prueba de propiedad de píxeles</li>
+    <li class="text">Prueba de tijera</li>
+    <li class="text">Prueba de plantilla</li>
+    <li class="text">Prueba de profundidad</li>
+  </ul> 
+<p class="text"><b>Paso 2 : </b>Mezclar colores (entre el fragmento y framebuffer).</p>
+<p class="text"><b>Paso 3 : </b>Escribir los datos del fragmento en el framebuffer.</p>
+</div>
+
+<script>
+  document.getElementById("defaultOpen").click();
+</script>
+
+</body>
+
+
