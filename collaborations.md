@@ -1,4 +1,4 @@
-# Collaborations
+# Colaboraciones
 
 ## 1. Procesamiento de imágenes
 
