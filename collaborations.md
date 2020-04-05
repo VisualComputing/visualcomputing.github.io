@@ -57,6 +57,7 @@ Descomprimir el archivo `*.zip` en la caperta de `libraries` del sketchbook (e.g
 ### 4.1 Navegación en 3a persona
 
 > Desarrollar un control de cámara en 3a. persona para la navegación en ambientes virtuales
+
 * Referencias:
     1. [A Survey of Interaction Techniques for Interactive 3D Environment](https://hal.inria.fr/hal-00789413/document)
     2. [Flock-of-boids demo](https://github.com/VisualComputing/nub/tree/master/examples/demos/FlockOfBoids)
@@ -65,6 +66,7 @@ Descomprimir el archivo `*.zip` en la caperta de `libraries` del sketchbook (e.g
 ### 4.2 GUIs no convencionales
 
 > Experimentar con [GUIs](https://es.wikipedia.org/wiki/Interfaz_gr%C3%A1fica_de_usuario) no convencionales en 2D y 3D
+
 * Referencias:
     1. [A Survey of Interaction Techniques for Interactive 3D Environment](https://hal.inria.fr/hal-00789413/document)
     2. [Custom-node-interaction demo](https://github.com/VisualComputing/nub/tree/master/examples/demos/CustomNodeInteraction)
@@ -72,6 +74,7 @@ Descomprimir el archivo `*.zip` en la caperta de `libraries` del sketchbook (e.g
 ### 4.3. [Skinning](https://en.wikipedia.org/wiki/Skeletal_animation)
 
 > To animate an arbitrary mesh using [ik](https://en.wikipedia.org/wiki/Inverse_kinematics)
+
 * References:
     1. Inverse-kinematics (ik) nubjs module (url missing).
     2. [InteractiveFish](https://github.com/VisualComputing/framesjs/tree/0.1.x/examples/ik/InteractiveFish)
@@ -79,6 +82,7 @@ Descomprimir el archivo `*.zip` en la caperta de `libraries` del sketchbook (e.g
 ### 4.4. [Procedural Animation](https://en.wikipedia.org/wiki/Procedural_animation)
 
 > To implement inverse-kinematics -based procedural animations in [nub](https://github.com/VisualComputing/nub)
+
 * References:
     1. ik nub module (url missing).
     
