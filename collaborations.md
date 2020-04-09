@@ -97,3 +97,5 @@ Descomprimir el archivo `*.zip` en la caperta de `libraries` del sketchbook (e.g
     2. [Repositorio de nubjs](https://github.com/VisualComputing/nubjs)
 
 [Back]({{ site.url }}/)
+
+## 6. Migrar [https://github.com/VisualComputing](https://github.com/VisualComputing) a otro [servidor](https://en.wikipedia.org/wiki/Comparison_of_source-code-hosting_facilities)
