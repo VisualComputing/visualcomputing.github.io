@@ -73,20 +73,34 @@ Descomprimir el archivo `*.zip` en la caperta de `libraries` del sketchbook (e.g
     1. [A Survey of Interaction Techniques for Interactive 3D Environment](https://hal.inria.fr/hal-00789413/document)
     2. [Custom-node-interaction demo](https://github.com/VisualComputing/nub/tree/master/examples/demos/CustomNodeInteraction)
 
-### 4.3. [Skinning](https://en.wikipedia.org/wiki/Skeletal_animation)
 
-> To animate an arbitrary mesh using [ik](https://en.wikipedia.org/wiki/Inverse_kinematics)
+### 4.3 Interacción en IK
 
-* References:
-    1. Inverse-kinematics (ik) nubjs module (url missing).
-    2. [InteractiveFish](https://github.com/VisualComputing/framesjs/tree/0.1.x/examples/ik/InteractiveFish)
+> Implementar una metáfora de interacción para manipular los `targets` y/o las articulaciones de una estructura de esqueleto en IK en `nub`.
+
+* Referencias:
+    1. [Creación de una estructura de esqueleto en IK](?).
+    2. [Wiki](https://github.com/sechaparroc/nub/wiki/Solving-IK-with-rotational-constraints).
+    3. Hardware no convencional de interacción: [Kinect](https://en.wikipedia.org/wiki/Kinect), [Leap Motion](https://en.wikipedia.org/wiki/Leap_Motion), [SpaceNavigator](https://en.wikipedia.org/wiki/3Dconnexion) y [PoseNet con runway](https://www.youtube.com/watch?v=7btNir5L8Jc&t=438s), entre otros.
+
+### 4.4 Rigging en IK
+
+> Realizar un [benchmark de CPU vs GPU](https://en.wikipedia.org/wiki/Benchmark_(computing)) de algoritmos de [skinning](https://www.youtube.com/watch?v=YXDzMZaAo0U) para un estructura de esqueleto en IK.
+
+* Referencias:
+    1. [Creación de una estructura de esqueleto en IK](?).
+    2. Algoritmo básico de [Linear Skinning]() de nub.
+    3. [IK Fish](https://github.com/VisualComputing/nub/tree/ik/examples/ik/skinning/Fish)
     
-### 4.4. [Procedural Animation](https://en.wikipedia.org/wiki/Procedural_animation)
+### 4.5. Animación en IK
 
-> To implement inverse-kinematics -based procedural animations in [nub](https://github.com/VisualComputing/nub)
+> Animar una malla poligonal arbitraria en [ik](https://en.wikipedia.org/wiki/Inverse_kinematics)
 
-* References:
-    1. ik nub module (url missing).
+* Referencias:
+    1. [Ejemplo](?) que emplea un Interpolator para definir una trayectoria para los `targets`.
+    2. [Ejemplos](?) de [animaciones procedimentales]((https://en.wikipedia.org/wiki/Procedural_animation)) para definir e interpolar una trayectoria para los `targets`.
+    3. [Generación de controles de animación](https://www.khanacademy.org/partner-content/pixar/animate).
+    4. [Animation Blending](http://guillaumeblanc.github.io/ozz-animation/samples/blend/).
     
 ## 5. Adaptar [nub](https://github.com/VisualComputing/nub) a java-script
 
@@ -96,6 +110,6 @@ Descomprimir el archivo `*.zip` en la caperta de `libraries` del sketchbook (e.g
     1. [Tutorial de librerías de p5js](https://github.com/processing/p5.js/blob/master/contributor_docs/creating_libraries.md)
     2. [Repositorio de nubjs](https://github.com/VisualComputing/nubjs)
 
-[Back]({{ site.url }}/)
-
 ## 6. Migrar [https://github.com/VisualComputing](https://github.com/VisualComputing) a otro [servidor](https://en.wikipedia.org/wiki/Comparison_of_source-code-hosting_facilities)
+
+[Back]({{ site.url }}/)
