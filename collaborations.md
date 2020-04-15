@@ -20,11 +20,27 @@ Distribuciones recientes de Linux que emplean `gstreamer >=1`, requieren de [est
 
 Descomprimir el archivo `*.zip` en la caperta de `libraries` del sketchbook (e.g., `$HOME/sketchbook/libraries`).
 
-## 2. Visualización de datos
+## 2. Visualización de información
 
-### 2.1. 
+### 2.1. Visualización de matrices de origen-destino
 
-### 2.2. Visualización de Algoritmos
+> Las encuestas de movilidad contienen la caracterización de los viajes en la ciudad en un día estándar: Hora, duración, motivo, lugares de origen y destino, medio de transporte y caracterización de las personas que hacen el viaje. El reto es como visualizar la información geográfica, demográfica y temporal de una manera intuitiva y ajustable.
+
+* Datos: Encuesta de Movilidad Bogotá 2019. Datos bien estructurados.
+
+### 2.2. Visualización datos de Bicicletas Públicas
+
+> El sistema de bicicletas CitiBike hace disponible la información de todos sus viajes así como alguna información de sus usuarios. Al igual que el punto anterior, se debe visualizar información geográfica y de usuario pero con un componente temporal mucho más marcado al tener información minuto a minuto. [Algunos ejemplos](https://toddwschneider.com/posts/a-tale-of-twenty-two-million-citi-bikes-analyzing-the-nyc-bike-share-system/).
+
+* Datos: [Disponibles acá](https://www.citibikenyc.com/system-data) y bien estructurados.
+
+### 2.3. Visualización de modelos de enfermedad espacio-temporales
+
+Los modelos de enfermedad se caracterizan por meta-poblaciones separadas espacialmente con distintos tipos de individuos (Susceptibles, Infectados, Expuestos, Recuperados, etc...). Al conectar varias de estas meta-poblaciones y adicionar una probabilidad de movimiento se tienen modelos más predictivos. Es necesaria la visualización de los modelos para hace un ajuste de variables. [Más información acá](https://arxiv.org/pdf/1802.03969.pdf).
+
+* Datos: Deben ser generados.
+
+### 2.4. Visualización de Algoritmos
 
 > Visualizar algunos conceptos de computación visual como los [algoritmos de detección de superficies visibles](https://en.wikipedia.org/wiki/Hidden_surface_determination), las [projecciones 3D](https://en.wikipedia.org/wiki/3D_projection) o el [algoritmo de rasterización de un triángulo](https://fgiesen.wordpress.com/2013/02/06/the-barycentric-conspirac/)
 
