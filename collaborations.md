@@ -16,9 +16,7 @@ Emplear dos [canvas](https://processing.org/reference/PGraphics.html), uno para 
 
 #### Alternativas para video en Linux y `gstreamer >=1`
 
-Distribuciones recientes de Linux que emplean `gstreamer >=1`, requieren de [esta](https://github.com/gohai/processing-video/releases/tag/v1.0.2) versión alternativa de la librería de video.
-
-Descomprimir el archivo `*.zip` en la caperta de `libraries` del sketchbook (e.g., `$HOME/sketchbook/libraries`).
+Distribuciones recientes de Linux que emplean `gstreamer >=1`, requieren de [esta](https://github.com/gohai/processing-video/releases/tag/v1.0.2) versión alternativa de la librería de video. Descomprimir el archivo `*.zip` en la caperta de `libraries` del sketchbook (e.g., `$HOME/sketchbook/libraries`).
 
 ## 2. Visualización de información
 
