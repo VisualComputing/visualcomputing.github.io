@@ -26,17 +26,23 @@ Distribuciones recientes de Linux que emplean `gstreamer >=1`, requieren de [est
 
 * Datos: Encuesta de Movilidad Bogotá 2019. Datos bien estructurados.
 
+Contacto: PhD Juan David Garcia Arteaga <judgarciaar@unal.edu.co> 
+
 ### 2.2. Visualización datos de Bicicletas Públicas
 
 > El sistema de bicicletas CitiBike hace disponible la información de todos sus viajes así como alguna información de sus usuarios. Al igual que el punto anterior, se debe visualizar información geográfica y de usuario pero con un componente temporal mucho más marcado al tener información minuto a minuto. [Algunos ejemplos](https://toddwschneider.com/posts/a-tale-of-twenty-two-million-citi-bikes-analyzing-the-nyc-bike-share-system/).
 
 * Datos: [Disponibles acá](https://www.citibikenyc.com/system-data) y bien estructurados.
 
+Contacto: PhD Juan David Garcia Arteaga <judgarciaar@unal.edu.co> 
+
 ### 2.3. Visualización de modelos de enfermedad espacio-temporales
 
 Los modelos de enfermedad se caracterizan por meta-poblaciones separadas espacialmente con distintos tipos de individuos (Susceptibles, Infectados, Expuestos, Recuperados, etc...). Al conectar varias de estas meta-poblaciones y adicionar una probabilidad de movimiento se tienen modelos más predictivos. Es necesaria la visualización de los modelos para hace un ajuste de variables. [Más información acá](https://arxiv.org/pdf/1802.03969.pdf).
 
 * Datos: Deben ser generados.
+
+Contacto: PhD Juan David Garcia Arteaga <judgarciaar@unal.edu.co> 
 
 ### 2.4. Visualización de Algoritmos
 
@@ -88,7 +94,7 @@ Los modelos de enfermedad se caracterizan por meta-poblaciones separadas espacia
     2. [Custom-node-interaction demo](https://github.com/VisualComputing/nub/tree/master/examples/demos/CustomNodeInteraction)
 
 
-### 4.3 Interacción en IK
+### 4.3 Interacción en [IK](https://en.wikipedia.org/wiki/Inverse_kinematics)
 
 > Implementar una metáfora de interacción para manipular los `targets` y/o las articulaciones de una estructura de esqueleto en IK en `nub`.
 
@@ -97,7 +103,9 @@ Los modelos de enfermedad se caracterizan por meta-poblaciones separadas espacia
     2. [Wiki](https://github.com/sechaparroc/nub/wiki/Solving-IK-with-rotational-constraints).
     3. Hardware no convencional de interacción: [Kinect](https://en.wikipedia.org/wiki/Kinect), [Leap Motion](https://en.wikipedia.org/wiki/Leap_Motion), [SpaceNavigator](https://en.wikipedia.org/wiki/3Dconnexion) y [PoseNet con runway](https://www.youtube.com/watch?v=7btNir5L8Jc&t=438s), entre otros.
 
-### 4.4 Rigging en IK
+Contacto: MSc (c) Sebastian Chaparro <sechaparroc@unal.edu.co>
+
+### 4.4 Rigging en [IK](https://en.wikipedia.org/wiki/Inverse_kinematics)
 
 > Realizar un [benchmark de CPU vs GPU](https://en.wikipedia.org/wiki/Benchmark_(computing)) de algoritmos de [skinning](https://www.youtube.com/watch?v=YXDzMZaAo0U) para un estructura de esqueleto en IK.
 
@@ -105,8 +113,10 @@ Los modelos de enfermedad se caracterizan por meta-poblaciones separadas espacia
     1. [Creación de una estructura de esqueleto en IK](?).
     2. Algoritmo básico de [Linear Skinning]() de nub.
     3. [IK Fish](https://github.com/VisualComputing/nub/tree/ik/examples/ik/skinning/Fish)
+
+Contacto: MSc (c) Sebastian Chaparro <sechaparroc@unal.edu.co>
     
-### 4.5. Animación en IK
+### 4.5. Animación en [IK](https://en.wikipedia.org/wiki/Inverse_kinematics)
 
 > Animar una malla poligonal arbitraria en [ik](https://en.wikipedia.org/wiki/Inverse_kinematics)
 
@@ -115,6 +125,8 @@ Los modelos de enfermedad se caracterizan por meta-poblaciones separadas espacia
     2. [Ejemplos](?) de [animaciones procedimentales]((https://en.wikipedia.org/wiki/Procedural_animation)) para definir e interpolar una trayectoria para los `targets`.
     3. [Generación de controles de animación](https://www.khanacademy.org/partner-content/pixar/animate).
     4. [Animation Blending](http://guillaumeblanc.github.io/ozz-animation/samples/blend/).
+
+Contacto: MSc (c) Sebastian Chaparro <sechaparroc@unal.edu.co>
     
 ## 5. Adaptar [nub](https://github.com/VisualComputing/nub) a java-script
 
