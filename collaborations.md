@@ -26,7 +26,7 @@ Distribuciones recientes de Linux que emplean `gstreamer >=1`, requieren de [est
 
 * Datos: Encuesta de Movilidad Bogotá 2019. Datos bien estructurados.
 
-Contacto: PhD Juan David Garcia Arteaga <judgarciaar@unal.edu.co> 
+_Contacto:_ PhD Juan David Garcia Arteaga <judgarciaar@unal.edu.co> 
 
 ### 2.2. Visualización datos de Bicicletas Públicas
 
@@ -34,7 +34,7 @@ Contacto: PhD Juan David Garcia Arteaga <judgarciaar@unal.edu.co>
 
 * Datos: [Disponibles acá](https://www.citibikenyc.com/system-data) y bien estructurados.
 
-Contacto: PhD Juan David Garcia Arteaga <judgarciaar@unal.edu.co> 
+_Contacto:_ PhD Juan David Garcia Arteaga <judgarciaar@unal.edu.co> 
 
 ### 2.3. Visualización de modelos de enfermedad espacio-temporales
 
@@ -42,7 +42,7 @@ Los modelos de enfermedad se caracterizan por meta-poblaciones separadas espacia
 
 * Datos: Deben ser generados.
 
-Contacto: PhD Juan David Garcia Arteaga <judgarciaar@unal.edu.co> 
+_Contacto:_ PhD Juan David Garcia Arteaga <judgarciaar@unal.edu.co> 
 
 ### 2.4. Visualización de Algoritmos
 
@@ -103,7 +103,7 @@ Contacto: PhD Juan David Garcia Arteaga <judgarciaar@unal.edu.co>
     2. [Wiki](https://github.com/sechaparroc/nub/wiki/Solving-IK-with-rotational-constraints).
     3. Hardware no convencional de interacción: [Kinect](https://en.wikipedia.org/wiki/Kinect), [Leap Motion](https://en.wikipedia.org/wiki/Leap_Motion), [SpaceNavigator](https://en.wikipedia.org/wiki/3Dconnexion) y [PoseNet con runway](https://www.youtube.com/watch?v=7btNir5L8Jc&t=438s), entre otros.
 
-Contacto: MSc (c) Sebastian Chaparro <sechaparroc@unal.edu.co>
+_Contacto:_ MSc (c) Sebastian Chaparro <sechaparroc@unal.edu.co>
 
 ### 4.4 Rigging en [IK](https://en.wikipedia.org/wiki/Inverse_kinematics)
 
@@ -114,7 +114,7 @@ Contacto: MSc (c) Sebastian Chaparro <sechaparroc@unal.edu.co>
     2. Algoritmo básico de [Linear Skinning]() de nub.
     3. [IK Fish](https://github.com/VisualComputing/nub/tree/ik/examples/ik/skinning/Fish)
 
-Contacto: MSc (c) Sebastian Chaparro <sechaparroc@unal.edu.co>
+_Contacto:_ MSc (c) Sebastian Chaparro <sechaparroc@unal.edu.co>
     
 ### 4.5. Animación en [IK](https://en.wikipedia.org/wiki/Inverse_kinematics)
 
@@ -126,11 +126,11 @@ Contacto: MSc (c) Sebastian Chaparro <sechaparroc@unal.edu.co>
     3. [Generación de controles de animación](https://www.khanacademy.org/partner-content/pixar/animate).
     4. [Animation Blending](http://guillaumeblanc.github.io/ozz-animation/samples/blend/).
 
-Contacto: MSc (c) Sebastian Chaparro <sechaparroc@unal.edu.co>
+_Contacto:_ MSc (c) Sebastian Chaparro <sechaparroc@unal.edu.co>
     
 ## 5. Adaptar [nub](https://github.com/VisualComputing/nub) a java-script
 
-> Adaptar la librería [nub](https://github.com/VisualComputing/nub) como una librería de [p5js](https://p5js.org/)
+> Adaptar [nub](https://github.com/VisualComputing/nub) como una librería de [p5js](https://p5js.org/)
 
 * Referencias:
     1. [Tutorial de librerías de p5js](https://github.com/processing/p5.js/blob/master/contributor_docs/creating_libraries.md)
