@@ -99,32 +99,37 @@ _Contacto:_ PhD Juan David Garcia Arteaga <judgarciaar@unal.edu.co>
 > Implementar una metáfora de interacción para manipular los `targets` y/o las articulaciones de una estructura de esqueleto en IK en `nub`.
 
 * Referencias:
-    1. [Creación de una estructura de esqueleto en IK](?).
-    2. [Wiki](https://github.com/sechaparroc/nub/wiki/Solving-IK-with-rotational-constraints).
-    3. Hardware no convencional de interacción: [Kinect](https://en.wikipedia.org/wiki/Kinect), [Leap Motion](https://en.wikipedia.org/wiki/Leap_Motion), [SpaceNavigator](https://en.wikipedia.org/wiki/3Dconnexion) y [PoseNet con runway](https://www.youtube.com/watch?v=7btNir5L8Jc&t=438s), entre otros.
+    1. [Wiki](https://github.com/sechaparroc/nub/wiki).
+    2. Hardware no convencional de interacción: [Kinect](https://en.wikipedia.org/wiki/Kinect), [Leap Motion](https://en.wikipedia.org/wiki/Leap_Motion), [SpaceNavigator](https://en.wikipedia.org/wiki/3Dconnexion) y [PoseNet con runway](https://www.youtube.com/watch?v=7btNir5L8Jc&t=438s), entre otros.
+    3. [Controles de animación](https://www.khanacademy.org/partner-content/pixar/animate).
 
 _Contacto:_ MSc (c) Sebastian Chaparro <sechaparroc@unal.edu.co>
 
-### 4.4 Rigging en [IK](https://en.wikipedia.org/wiki/Inverse_kinematics)
+### 4.4 Rigging en [IK](https://en.wikipedia.org/wiki/Skeletal_animation)
 
-> Realizar un [benchmark de CPU vs GPU](https://en.wikipedia.org/wiki/Benchmark_(computing)) de algoritmos de [skinning](https://www.youtube.com/watch?v=YXDzMZaAo0U) para un estructura de esqueleto en IK.
+> Realizar un [benchmark de CPU vs GPU](https://en.wikipedia.org/wiki/Benchmark_(computing)) de algoritmos de [skinning](https://www.youtube.com/watch?v=YXDzMZaAo0U).
 
 * Referencias:
-    1. [Creación de una estructura de esqueleto en IK](?).
-    2. Algoritmo básico de [Linear Skinning]() de nub.
-    3. [IK Fish](https://github.com/VisualComputing/nub/tree/ik/examples/ik/skinning/Fish)
+    1. [Algoritmos de Skinning](https://skinning.org/) 
+    2. [Rigging en nub](https://github.com/sechaparroc/nub/wiki/5.-Rigging-on-nub).
+    3. [Linear Blend Skinning](https://www.pixelfondue.com/blog/2017/10/27/how-it-works-linear-blend-skinning).
+    4. Implementación de [Linear Blend Skinning](https://github.com/sechaparroc/nub/tree/master/src/nub/ik/skinning) en nub. 
+    5. [Herramientas para edición de pesos de Skinning](https://github.com/pgpreeth/max-skinning-weight-tool)
+    6. [Skinning automático](https://igl.ethz.ch/projects/fast/fast-automatic-skinning-transformations-siggraph-2012-jacobson-et-al.pdf)
+
 
 _Contacto:_ MSc (c) Sebastian Chaparro <sechaparroc@unal.edu.co>
     
 ### 4.5. Animación en [IK](https://en.wikipedia.org/wiki/Inverse_kinematics)
 
-> Animar una malla poligonal arbitraria en [ik](https://en.wikipedia.org/wiki/Inverse_kinematics)
+> Animar una malla poligonal arbitraria en [ik](https://en.wikipedia.org/wiki/Inverse_kinematics) con y sin restricciones.
 
 * Referencias:
-    1. [Ejemplo](?) que emplea un Interpolator para definir una trayectoria para los `targets`.
-    2. [Ejemplos](?) de [animaciones procedimentales]((https://en.wikipedia.org/wiki/Procedural_animation)) para definir e interpolar una trayectoria para los `targets`.
-    3. [Generación de controles de animación](https://www.khanacademy.org/partner-content/pixar/animate).
-    4. [Animation Blending](http://guillaumeblanc.github.io/ozz-animation/samples/blend/).
+    1. [Animación de la estructura de Esqueleto](https://github.com/sechaparroc/nub/wiki/7.-Skeleton-animation)  en nub.
+    2. [Ejemplo](https://github.com/sechaparroc/nub/blob/master/examples/ik/rigging/Eagle/Eagle.pde) que emplea un Interpolator para definir una trayectoria para los `targets`.
+    3. [Ejemplos](https://weaverdev.io/blog/bonehead-procedural-animation) de [animaciones procedimentales]((https://en.wikipedia.org/wiki/Procedural_animation)).
+    4. [Generación de controles de animación](https://www.khanacademy.org/partner-content/pixar/animate).
+    5. [Animation Blending](http://guillaumeblanc.github.io/ozz-animation/samples/blend/).
 
 _Contacto:_ MSc (c) Sebastian Chaparro <sechaparroc@unal.edu.co>
     
