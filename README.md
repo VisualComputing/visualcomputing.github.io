@@ -51,4 +51,5 @@ Libros, artículos, wikipedia de acuerdo a cada tema.
 | [nub](https://github.com/VisualComputing/nub) | [SceneGraphs](https://github.com/VisualComputing/SceneGraphs)    | --                                                           |
 | [A Survey of Interaction Techniques](https://hal.inria.fr/hal-00789413/document) | [Interaction](https://github.com/VisualComputing/Interaction)                             | --                                                           |
 |         | [Inverse kinematics](https://github.com/VisualComputing/IK)                               | [acá](https://github.com/VisualComputing/HCI-IK_ws)          |
-| [Shaders tutorial](https://processing.org/tutorials/pshader/) | [Shaders](https://github.com/VisualComputing/Shaders)                                     | --                                                           |
+| [Shaders tutorial](https://processing.org/tutorials/pshader/) | [Vertex Shaders](https://github.com/VisualComputing/VertexShaders)                        | --                                                           |
+| [Shaders tutorial](https://processing.org/tutorials/pshader/) | [Fragment Shaders](https://github.com/VisualComputing/FragmentShaders)                    | --                                                           |
